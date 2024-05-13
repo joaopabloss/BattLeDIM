@@ -13,7 +13,6 @@ import yaml
 import shutil
 import time
 from math import sqrt
-
 # Read input arguments from yalm file
 try:
     with open(f'{os.getcwd()}\\dataset_configuration.yalm', 'r') as f:
